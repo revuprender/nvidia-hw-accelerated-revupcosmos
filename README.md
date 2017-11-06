@@ -1,12 +1,17 @@
+# Credits
+This repo is based on pigiuz's original code for the older g2 Nvidia GRID (Cloud Graphics) AWS Ec2 instances. Shout out to pigiuz for his original demo using the g2 instances located here: https://github.com/plumbee/nvidia-hw-accelerated-box AWESOME DEMO! Mad Prop points pigiuz! ;-)
+
+# ***Cloned / Updated November 2017 to support latest Nvidia GRID GPU Hardware***
+
 # Before you start
-This is intended to be a **demo** setup to run hardware accelerated content on AWS G2 instances https://aws.amazon.com/ec2/instance-types/#g2
+This is intended to be a **demo** setup to run hardware accelerated content on AWS g3 (Nvidia Tesla M60) GPU Hardware accelerated instances https://aws.amazon.com/blogs/aws/new-next-generation-gpu-powered-ec2-instances-g3/
 
 # Requirements
-These scripts must be run on a G2 EC2 box running Ubuntu 16.04 (HVM).
+These scripts must be run on a M60 instances running Ubuntu 16.04 (HVM).
 
 # What is included?
 Among the other packages these scripts will install
-- nvidia drivers v367.57 http://www.nvidia.com/download/driverResults.aspx/108586/en-us
+- nvidia drivers v384.81 http://www.nvidia.com/download/driverResults.aspx/124722/en-us
 - VirtualGL v2.5.2 http://www.virtualgl.org/
 - TurboVNC http://www.turbovnc.org/
 - docker https://www.docker.com/
@@ -17,8 +22,8 @@ Among the other packages these scripts will install
 # Installation
 SSH into your EC2 box, once in just run the following
 ```bash
-git clone https://github.com/plumbee/nvidia-hw-accelerated-box.git
-cd nvidia-hw-accelerated-box
+git clone https://github.com/rybruscoe/revup-nvidia-gpu-renderbox-linux
+cd revup-nvidia-gpu-renderbox-linux
 sudo su
 source setup.sh
 ```
