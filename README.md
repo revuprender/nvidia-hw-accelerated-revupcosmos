@@ -1,7 +1,7 @@
 # Credits
 This repo is based on pigiuz's original code for the older g2 Nvidia GRID (Cloud Graphics) AWS Ec2 instances. Shout out to pigiuz for his original demo using the g2 instances located here: https://github.com/plumbee/nvidia-hw-accelerated-box AWESOME DEMO! Mad Prop points pigiuz! ;-)
 
-# ***Cloned / Updated November 2017 to support latest Nvidia GRID GPU Hardware***
+Cloned pigiuz repo November 6, 2017 to support g3 instances with corrosponding (latest) NVIDIA Driver and related CUDA software in order to support the newer Tesla M60 GRID GPU instances
 
 # Before you start
 This is intended to be a **demo** setup to run hardware accelerated content on AWS g3 (Nvidia Tesla M60) GPU Hardware accelerated instances https://aws.amazon.com/blogs/aws/new-next-generation-gpu-powered-ec2-instances-g3/
