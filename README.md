@@ -31,6 +31,11 @@ Keep in mind that:
 - The installation will reboot the machine once done.
 - At the startup the VNC server will start on DISPLAY :1.
 
+# Future Proofing (to support latest Nvidia GRID GPU hardware)
+Find updated NVIDIA-Linux-x86_64-*.run driver direct download URL
+Simply update line #8 in the root_setup.sh file to reflect the latest Nvidia driver .run URL download
+May work for ec2 p2/p3 (Tesla K80/V100) "Deep Learning" GPU Compute instances but requires further R+D investigation/testing
+
 # VNC access
 ## Password
 VNC password is dynamically set to the first 8 characters of your EC2 instance id.
